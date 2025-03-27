@@ -76,6 +76,8 @@ section {
     border-radius: 50%;
 }
 
+
+
 /* Projects */
 .projects-container {
     display: flex;
@@ -107,6 +109,34 @@ section {
 .certificates-container img {
     width: 250px;
 }
+
+/* Skills Section */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive grid */
+    gap: 15px;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.skill {
+    background: #4a90e2; /* Blue color */
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill:hover {
+    background: #145388; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
 
 /* Footer */
 footer {

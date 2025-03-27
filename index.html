@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Priya - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
@@ -15,6 +15,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certificates">Certificates</a></li>
@@ -28,7 +29,7 @@
         <section id="home" class="hero">
             <div class="hero-text">
                 <h1>Hi, I'm Priya 👋</h1>
-                <p>Aspiring Frontend Developer</p>
+                <p>Aspiring Full-Stack Developer | Problem Solver</p>
                 <a href="#projects" class="btn">View Projects</a>
             </div>
         </section>
@@ -38,15 +39,39 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <img src="profile.png" alt="Profile Picture">
-                <p>I'm a Computer Science and Engineering student with experience in Data Science, and Full-Stack Development (MERN). I've participated in multiple hackathons, including the IBM Datathon, where my project Health Hunch won an award.</p>
+                <div class="about-text">
+                    <p>I'm a Computer Science and Engineering student with a strong interest in web development, full-stack applications, and problem-solving. I enjoy building interactive, user-friendly web applications using the MERN stack.</p>
+                    <p>Beyond coding, I love exploring how technology can simplify everyday problems. I've participated in multiple hackathons, including the IBM Datathon, where my team’s project *Health Hunch* was recognized for its innovation in predictive healthcare.</p>
+                    <p>Currently, I’m expanding my expertise in front-end frameworks and backend technologies while working on personal projects that challenge me to think creatively.</p>
+                </div>
             </div>
         </section>
+
+        <!-- SKILLS SECTION -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React.js</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Express.js</div>
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Data Visualization</div>
+    </div>
+</section>
+
 
         <!-- EDUCATION SECTION -->
         <section id="education">
             <h2>Education</h2>
-            <p><strong>B.Tech in Computer Science and Engineering</strong> (3rd Year)</p>
-            <p>Passionate about  Web Development, and applying technology to solve real-world problems.</p>
+            <div class="education-card">
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <p>3rd Year | Passionate about full-stack development and solving real-world problems through technology.</p>
+            </div>
         </section>
 
         <!-- PROJECTS SECTION -->
@@ -56,24 +81,17 @@
                 <div class="project-card">
                     <img src="project1.png" alt="Health Hunch">
                     <h3>Health Hunch</h3>
-                    <p>Health Hunch is an innovative system designed to predict diseases by analyzing symptoms, enabling early detection and self-diagnosis. 
-                        This award-winning project from the 2023 IBMZ Datathon harnesses advanced Machine Learning and Deep Learning pipelines to accurately identify and classify diseases based on user-provided symptoms,
-                         paving the way for more accessible and proactive healthcare solutions.</p>
+                    <p>Predicts diseases by analyzing symptoms, enabling early detection. Award-winning project at IBMZ Datathon.</p>
                 </div>
                 <div class="project-card">
                     <img src="project2.png" alt="Traffic Sign Classification">
                     <h3>Traffic Sign Classification</h3>
-                    <p>Developed a deep learning model to classify traffic signs using the LeNet architecture. 
-                        This project aimed to enhance autonomous vehicle systems by accurately identifying and categorizing various traffic signs. 
-                        The model leveraged convolutional neural networks (CNNs) to process and interpret traffic sign images, 
-                        improving the vehicle's ability to navigate and respond to road signs effectively</p>
+                    <p>Developed a deep learning model using CNNs to classify traffic signs, aiding autonomous vehicle navigation.</p>
                 </div>
                 <div class="project-card">
-                    <img src="project3.png" alt="Covid-19 Mortality Prediction Using Gradient Boosting">
-                    <h3>Covid-19 Mortality Prediction Using Gradient Boosting</h3>
-                    <p>Developed a Gradient Boosting Regressor to predict Covid-19 death tolls in India, utilizing data from January 2020 to August 2021. 
-                        Applied feature engineering, preprocessing, and hyperparameter tuning to optimize the model.
-                         Achieved accurate predictions, aiding in resource allocation and emergency preparedness.</p>
+                    <img src="project3.png" alt="Covid-19 Mortality Prediction">
+                    <h3>Covid-19 Mortality Prediction</h3>
+                    <p>Used Gradient Boosting to predict death tolls in India, optimizing resource allocation during the pandemic.</p>
                 </div>
             </div>
         </section>
@@ -83,7 +101,9 @@
             <h2>Certificates</h2>
             <div class="certificates-container">
                 <img src="certificate1.png" alt="Google Cloud Career Readiness">
-                <img src="certificate2.png" alt="SIH Hackathon ">
+                <img src="certificate2.png" alt="SIH Hackathon">
+                <img src="certificate3.png" alt="IIIT Sricity Healthcare Hackathon">
+                
             </div>
         </section>
 
