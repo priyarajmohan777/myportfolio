@@ -1,18 +1,26 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
+    background: #f8f9fa;
     scroll-behavior: smooth;
 }
 
+/* Header */
 header {
-    background: #333;
-    padding: 10px 0;
-    text-align: center;
+    background: #222;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
+    text-align: center;
     padding: 0;
 }
 
@@ -24,20 +32,87 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-section {
-    padding: 50px;
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4a90e2, #145388);
+    color: white;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    padding: 100px 20px;
 }
 
+.hero-text {
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background: #ff4b2b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Certificates */
+.certificates-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.certificates-container img {
+    width: 250px;
+}
+
+/* Footer */
 footer {
-    background: #333;
+    background: #222;
     color: white;
     text-align: center;
     padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }

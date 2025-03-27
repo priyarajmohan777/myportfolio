@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
+    <!-- HEADER & NAVIGATION -->
     <header>
         <nav>
             <ul>
@@ -20,36 +23,74 @@
     </header>
 
     <main>
-        <section id="home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm [Your Name], a passionate developer.</p>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm Priya 👋</h1>
+                <p>Aspiring Frontend Developer</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
         </section>
 
+        <!-- ABOUT SECTION -->
         <section id="about">
             <h2>About Me</h2>
-            <p>Brief introduction about yourself, your skills, and interests.</p>
+            <div class="about-content">
+                <img src="profile.png" alt="Profile Picture">
+                <p>I'm a Computer Science and Engineering student with experience in Data Science, and Full-Stack Development (MERN). I've participated in multiple hackathons, including the IBM Datathon, where my project Health Hunch won an award.</p>
+            </div>
         </section>
 
+        <!-- EDUCATION SECTION -->
         <section id="education">
             <h2>Education</h2>
-            <p>List your academic background and achievements.</p>
+            <p><strong>B.Tech in Computer Science and Engineering</strong> (3rd Year)</p>
+            <p>Passionate about  Web Development, and applying technology to solve real-world problems.</p>
         </section>
 
+        <!-- PROJECTS SECTION -->
         <section id="projects">
             <h2>Projects</h2>
-            <p>Showcase your work with brief descriptions and links.</p>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="project1.png" alt="Health Hunch">
+                    <h3>Health Hunch</h3>
+                    <p>Predicts diseases by analyzing symptoms using AI/ML. Awarded in **IBMZ Datathon 2023**.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.png" alt="Traffic Sign Classification">
+                    <h3>Traffic Sign Classification</h3>
+                    <p>Developed a deep learning model to classify traffic signs using the LeNet architecture. 
+                        This project aimed to enhance autonomous vehicle systems by accurately identifying and categorizing various traffic signs. 
+                        The model leveraged convolutional neural networks (CNNs) to process and interpret traffic sign images, 
+                        improving the vehicle's ability to navigate and respond to road signs effectively</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.png" alt="Covid-19 Mortality Prediction Using Gradient Boosting">
+                    <h3>Covid-19 Mortality Prediction Using Gradient Boosting</h3>
+                    <p>Developed a Gradient Boosting Regressor to predict Covid-19 death tolls in India, utilizing data from January 2020 to August 2021. 
+                        Applied feature engineering, preprocessing, and hyperparameter tuning to optimize the model.
+                         Achieved accurate predictions, aiding in resource allocation and emergency preparedness.</p>
+                </div>
+            </div>
         </section>
 
+        <!-- CERTIFICATES SECTION -->
         <section id="certificates">
             <h2>Certificates</h2>
-            <p>Highlight your certifications and accomplishments.</p>
+            <div class="certificates-container">
+                <img src="certificate1.png" alt="Google Cloud Career Readiness">
+                <img src="certificate2.png" alt="SIH Hackathon ">
+            </div>
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2025 Priya | Portfolio</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
